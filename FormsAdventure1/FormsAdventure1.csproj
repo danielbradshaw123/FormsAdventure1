@@ -59,6 +59,12 @@
     <Compile Include="location1.Designer.cs">
       <DependentUpon>location1.cs</DependentUpon>
     </Compile>
+    <Compile Include="location2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="location2.Designer.cs">
+      <DependentUpon>location2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Title.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="location1.resx">
       <DependentUpon>location1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="location2.resx">
+      <DependentUpon>location2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Title.resx">
       <DependentUpon>Title.cs</DependentUpon>
